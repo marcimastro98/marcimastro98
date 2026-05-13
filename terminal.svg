@@ -1,0 +1,125 @@
+<svg width="800" height="562" viewBox="0 0 800 562" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Marcello Mastroeni — Terminal Profile</title>
+<desc>Animated terminal boot sequence for Marcello Mastroeni, Full-Stack Engineer and AI Builder</desc>
+<defs>
+  <pattern id="scan" x="0" y="0" width="800" height="3" patternUnits="userSpaceOnUse">
+    <rect width="800" height="1" fill="#000" opacity="0.07"/>
+  </pattern>
+  <style>
+    @keyframes in   { from { opacity:0 } to { opacity:1 } }
+    @keyframes blink { 0%,49%{ opacity:1 } 50%,100%{ opacity:0 } }
+    .l0  { animation: in .5s 0.3s  both }
+    .l1  { animation: in .4s 0.9s  both }
+    .l2  { animation: in .4s 1.3s  both }
+    .l3  { animation: in .4s 1.9s  both }
+    .l4  { animation: in .4s 2.3s  both }
+    .l5  { animation: in .4s 2.6s  both }
+    .l6  { animation: in .4s 2.9s  both }
+    .l7  { animation: in .4s 3.2s  both }
+    .l8  { animation: in .4s 3.7s  both }
+    .l9  { animation: in .4s 4.1s  both }
+    .l10 { animation: in .4s 4.6s  both }
+    .l11 { animation: in .4s 5.0s  both }
+    .l12 { animation: in .4s 5.3s  both }
+    .l13 { animation: in .4s 5.8s  both }
+    .l14 { animation: in .4s 6.1s  both }
+    .l15 { animation: in .4s 6.4s  both }
+    .l16 { animation: in .4s 6.7s  both }
+    .l17 { animation: in .4s 7.1s  both }
+    .cur { animation: blink .9s 7.5s infinite }
+  </style>
+</defs>
+
+<!-- Terminal body -->
+<rect width="800" height="562" rx="10" fill="#0d1117"/>
+
+<!-- Header bar -->
+<rect width="800" height="38" rx="10" fill="#161b22"/>
+<rect y="19" width="800" height="19" fill="#161b22"/>
+<circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="19" r="6" fill="#28c840"/>
+<text x="400" y="24" text-anchor="middle" fill="#8b949e" font-size="12" font-family="'Courier New',Courier,monospace">marcello@github: ~</text>
+<line x1="0" y1="38" x2="800" y2="38" stroke="#21262d" stroke-width="1"/>
+
+<!-- Name banner -->
+<g class="l0">
+  <rect x="20" y="50" width="760" height="52" fill="none" stroke="#30363d" stroke-width="1" rx="3"/>
+  <text x="400" y="76" text-anchor="middle" fill="#e6edf3" font-size="20" font-weight="bold" font-family="'Courier New',Courier,monospace" letter-spacing="7">MARCELLO MASTROENI</text>
+  <text x="400" y="95" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'Courier New',Courier,monospace" letter-spacing="2">FULL-STACK ENGINEER  ·  AI BUILDER  ·  BRESCIA, ITALY  ·  2026</text>
+</g>
+
+<!-- whoami -->
+<g class="l1">
+  <text x="30" y="132" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
+</g>
+<g class="l2">
+  <text x="30" y="152" fill="#79c0ff" font-family="'Courier New',Courier,monospace" font-size="13">marcello.mastroeni — engineer · builder · learner · May 2026</text>
+</g>
+
+<!-- cat .profile -->
+<g class="l3">
+  <text x="30" y="186" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> cat .profile</tspan></text>
+</g>
+<g class="l4">
+  <text x="30" y="206" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#ffa657">role      </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">Full-Stack Engineer — Banking Software (Enterprise)</tspan></text>
+</g>
+<g class="l5">
+  <text x="30" y="224" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#ffa657">education </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">MSc Data Science — in progress</tspan></text>
+</g>
+<g class="l6">
+  <text x="30" y="242" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#ffa657">approach  </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">Agile · DevOps · Clean Architecture</tspan></text>
+</g>
+<g class="l7">
+  <text x="30" y="260" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#ffa657">thinking  </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">three moves ahead</tspan></text>
+</g>
+
+<!-- ls ~/skills/ -->
+<g class="l8">
+  <text x="30" y="294" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> ls ~/skills/</tspan></text>
+</g>
+<g class="l9">
+  <text x="30" y="314" fill="#a5d6ff" font-family="'Courier New',Courier,monospace" font-size="13">frontend/   backend/   data_ai/   databases/   devops/</text>
+</g>
+
+<!-- git log -->
+<g class="l10">
+  <text x="30" y="348" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> git log --oneline --author="Marcello Mastroeni"</tspan></text>
+</g>
+<g class="l11">
+  <text x="30" y="368" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#8b949e">* </tspan><tspan fill="#56d364">[2021→now]  </tspan><tspan fill="#e6edf3">feat: 737+ contributions — uptime: 4 years</tspan></text>
+</g>
+<g class="l12">
+  <text x="30" y="386" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#8b949e">* </tspan><tspan fill="#56d364">[2025]      </tspan><tspan fill="#e6edf3">build: banking platform → prod · streak: 15d</tspan></text>
+</g>
+
+<!-- ping -->
+<g class="l13">
+  <text x="30" y="420" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> ping marcello.mastroeni --verbose</tspan></text>
+</g>
+<g class="l14">
+  <text x="30" y="440" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#8b949e">→  linkedin.com/in/marcello-mastroeni   ........ </tspan><tspan fill="#56d364">[OPEN]</tspan></text>
+</g>
+<g class="l15">
+  <text x="30" y="458" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#8b949e">→  github.com/marcimastro98              ........ </tspan><tspan fill="#56d364">[OPEN]</tspan></text>
+</g>
+<g class="l16">
+  <text x="30" y="476" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#8b949e">→  collaborations                        ........ </tspan><tspan fill="#ffa657">[LISTENING]</tspan></text>
+</g>
+
+<!-- Final prompt + blinking cursor -->
+<g class="l17">
+  <text x="30" y="508" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> </tspan></text>
+</g>
+<rect class="cur" x="44" y="496" width="8" height="14" fill="#e6edf3"/>
+
+<!-- Status bar -->
+<rect y="530" width="800" height="32" fill="#161b22" rx="10"/>
+<rect y="530" width="800" height="12" fill="#161b22"/>
+<text x="20" y="552" fill="#8b949e" font-size="11" font-family="'Courier New',Courier,monospace">uptime: 2021 → ∞</text>
+<text x="400" y="552" text-anchor="middle" fill="#3fb950" font-size="11" font-family="'Courier New',Courier,monospace">● BUILDING</text>
+<text x="780" y="552" text-anchor="end" fill="#8b949e" font-size="11" font-family="'Courier New',Courier,monospace">shutdown: never</text>
+
+<!-- Scanline overlay -->
+<rect width="800" height="562" fill="url(#scan)" rx="10"/>
+</svg>
